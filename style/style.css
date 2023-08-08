@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
   margin: 0;
@@ -8,12 +8,14 @@
 }
 
 body {
-  background-color: #e9f5ff;
+  background-color: #ddecf9;
 }
 
 section {
   height: 600px;
   background-image: url(../assets/Ellipse.png);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -32,4 +34,25 @@ section {
 .login button {
   background-color: #2196f3;
   padding: 10px 24px;
+}
+
+.card:hover {
+  background-color: #e5e7eb;
+  cursor: pointer;
+}
+
+.card .card-img-top-up {
+  width: 38.833px;
+  height: 40px;
+}
+
+.card .card-body .card-text {
+  font-family: 'Oxanium';
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 150% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
