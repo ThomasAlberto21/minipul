@@ -88,3 +88,21 @@ section {
 }
 
 /* BERITA TERBARU END */
+
+/* Footer */
+
+footer h1 {
+  font-family: 'Oxanium';
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+}
+/* Footer End */
