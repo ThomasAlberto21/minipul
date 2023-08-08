@@ -6,3 +6,30 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
+body {
+  background-color: #e9f5ff;
+}
+
+section {
+  height: 600px;
+  background-image: url(../assets/Ellipse.png);
+  background-size: cover;
+}
+
+.navbar-nav li a:hover {
+  color: rgb(199, 199, 199);
+  border-bottom: 2px solid white;
+}
+
+.login h1 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.login button {
+  background-color: #2196f3;
+  padding: 10px 24px;
+}
