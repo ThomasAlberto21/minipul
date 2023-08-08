@@ -25,6 +25,19 @@ section {
   border-bottom: 2px solid white;
 }
 
+.scroll-navbar {
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.scroll-navbar.scrolled {
+  background-color: white !important;
+}
+
+.scroll-navbar.scrolled .nav-link {
+  color: black !important;
+}
+
 /* Login */
 .login h1 {
   font-size: 14px;

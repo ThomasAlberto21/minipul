@@ -27,6 +27,12 @@ function scrolling() {
   imageWrapper.style.transition = '.3s';
 }
 
-
-
-
+// Navbar Sticky
+window.addEventListener('scroll', function () {
+  var navbar = document.querySelector('.navbar');
+  if (window.scrollY > 50) {
+    navbar.classList.add('scroll-navbar', 'scrolled');
+  } else {
+    navbar.classList.remove('scroll-navbar', 'scrolled');
+  }
+});
