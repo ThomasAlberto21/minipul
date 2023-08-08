@@ -26,3 +26,7 @@ function scrolling() {
   imageWrapper.style.left = `-${totalScroll * widthEl}px`;
   imageWrapper.style.transition = '.3s';
 }
+
+
+
+
