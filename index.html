@@ -22,6 +22,12 @@
       src="https://kit.fontawesome.com/44aef23333.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
   </head>
 
   <body>
@@ -92,7 +98,7 @@
           </div>
         </div>
 
-        <!-- Content TOP UP -->
+        <!-- TOP UP -->
         <div class="top_up mt-5">
           <h3 class="text-white">Pilih mau top up apa</h3>
 
@@ -316,13 +322,49 @@
           </div>
         </div>
 
-        <!-- Berita Terbaru -->
-        <div class="berita_terbaru mt-5"></div>
+        <!-- BERITA TERBARU -->
+        <div class="berita_terbaru mt-5 mb-5">
+          <h1 class="mb-4">Berita Terbaru</h1>
+          <div class="bg-white p-4 rounded-3 mx-auto shadow-lg rounded-4">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="./assets/berita_terbaru_1.png"
+                    class="d-block w-100 object-fit-cover"
+                    alt="Berita 1"
+                  />
+                  <div class="body p-0 mt-3">
+                    <h3 class="text">Ditraktir sama Xiaomi</h3>
+                    <p>
+                      Yuk cek promonya sekarang! Dan dapatkan berbagai
+                      kemudahan!
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <img
+                    src="./assets/berita_terbaru_1.png"
+                    class="d-block w-100 object-fit-cover"
+                    alt="Berita 1"
+                  />
+                  <div class="body p-0 mt-3">
+                    <h3 class="text">Ditraktir sama Xiaomi</h3>
+                    <p>
+                      Yuk cek promonya sekarang! Dan dapatkan berbagai
+                      kemudahan!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-
-    <!-- Script JS -->
-    <script src="script/script.js"></script>
 
     <!-- Script Bootstrap -->
     <script
@@ -330,5 +372,16 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Script Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper('.swiper', {
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    </script>
   </body>
 </html>

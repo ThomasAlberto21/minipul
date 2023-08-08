@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #ddecf9;
+  background: #edf2f7;
 }
 
 section {
@@ -24,6 +24,7 @@ section {
   border-bottom: 2px solid white;
 }
 
+/* Login */
 .login h1 {
   font-size: 14px;
   font-style: normal;
@@ -35,24 +36,55 @@ section {
   background-color: #2196f3;
   padding: 10px 24px;
 }
+/* Login END */
 
-.card:hover {
+/* TOP UP */
+.top_up .card:hover {
   background-color: #e5e7eb;
   cursor: pointer;
 }
 
-.card .card-img-top-up {
+.top_up .card .card-img-top-up {
   width: 38.833px;
   height: 40px;
 }
 
-.card .card-body .card-text {
+.top_up .card .card-body .card-text {
   font-family: 'Oxanium';
-
   font-size: 12px;
-  font-style: normal;
   font-weight: 600;
-  line-height: 18px; /* 150% */
+  line-height: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+/* TOP UP END */
+
+/* BERITA TERBARU */
+.berita_terbaru h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* BERITA TERBARU END */
