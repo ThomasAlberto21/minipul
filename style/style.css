@@ -94,6 +94,28 @@ section {
 
 /* BERITA TERBARU END */
 
+/* Sticky Icons */
+.sticky-icon {
+  z-index: 99999;
+  bottom: 20px;
+  right: 45px;
+  cursor: pointer;
+}
+
+.child-icons {
+  z-index: 99999;
+  display: none;
+  bottom: 90px;
+  right: 50px;
+}
+
+.child-icons.show {
+  display: block;
+}
+
+.child-icon {
+  font-size: 24px;
+}
 /* Footer */
 
 footer h1 {

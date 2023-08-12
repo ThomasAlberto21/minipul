@@ -36,3 +36,13 @@ window.addEventListener('scroll', function () {
     navbar.classList.remove('scroll-navbar', 'scrolled');
   }
 });
+
+// Sticky Icon
+const parentIcon = document.getElementById('parentIcon');
+const childIcons = document.getElementById('childIcons');
+const whatsappIcon = document.getElementById('whatsappIcon');
+const instagramIcon = document.getElementById('instagramIcon');
+
+parentIcon.addEventListener('click', () => {
+  childIcons.classList.toggle('show');
+});
