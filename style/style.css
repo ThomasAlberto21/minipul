@@ -47,6 +47,7 @@ section {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
+  opacity: 0.5;
   letter-spacing: 0.5px;
 }
 
@@ -75,6 +76,10 @@ section {
 }
 /* TOP UP END */
 
+.list .card .card-body {
+  background-color: #2196f3;
+}
+
 /* BERITA TERBARU */
 .berita_terbaru h1 {
   font-size: 24px;
@@ -100,6 +105,7 @@ section {
 
 /* Sticky Icons */
 .sticky-icon {
+  background-color: #2196f3;
   z-index: 99999;
   bottom: 20px;
   right: 45px;
@@ -118,6 +124,7 @@ section {
 }
 
 .child-icon {
+  background-color: #2196f3;
   font-size: 24px;
 }
 /* Footer */
